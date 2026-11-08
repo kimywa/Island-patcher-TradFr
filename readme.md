@@ -1,6 +1,6 @@
 # Island Patcher (non officiel)
 
-Outil Python pour appliquer deux patches binaires et/ou une traduction française hors ligne à Island 1.2.9 (Windows x64).
+Outil Python pour appliquer des patches binaires et/ou une traduction française hors ligne à Island 1.2.9 (Windows x64).
 
 ## Avertissement / Disclaimer
 
@@ -15,6 +15,22 @@ Ce projet est fourni à des fins éducatives et de recherche uniquement. Vous l�
 - Testé **uniquement** sur une compilation d’Island 1.2.9 pour Windows x64.
 - La compatibilité avec les prochaines versions **n’est pas garantie**, ni avec toutes les compilations portant le même numéro de version.
 - Le script vérifie les octets attendus avant toute modification et s’arrête en cas de différence. Ces vérifications ne garantissent pas à elles seules le bon fonctionnement de l’application.
+
+## Emplacement d’Island
+
+Island s’installe par défaut dans le dossier local de l’utilisateur. Le chemin universel est :
+
+```text
+%LOCALAPPDATA%\Island
+```
+
+Pour ouvrir ce dossier rapidement, colle `%LOCALAPPDATA%\Island` dans la barre d’adresse de l’Explorateur Windows, ou utilise :
+
+```powershell
+cd "%LOCALAPPDATA%\Island"
+```
+
+Place les fichiers du projet (`island_tool.py`, `traductions_fr.json`, `requirements.txt`) directement dans ce dossier, puis lance les commandes depuis celui-ci.
 
 ## Installation
 
