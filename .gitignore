@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.exe
+*.rapport.json
+traductions_fr.json
